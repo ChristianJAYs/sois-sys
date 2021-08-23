@@ -1,0 +1,166 @@
+parehas
+	president
+	vp external
+	vp internal
+		all
+
+	vp documentation
+	assistant vp documentation
+		pasoa
+		cs
+		jpia
+		jma
+
+	vp audit
+		pasoa
+		aeces
+		cs
+		jpsme
+		jpia
+		jma
+
+	public relation officer
+		pasoa
+		mentors
+		student council
+
+	vp acads
+	assistant vp acads
+		pasoa
+		aeces
+		cs
+		jpsme
+		jpia
+		jpmap
+
+	vp arts
+	assistant vp arts
+		pasoa
+		aeces
+		cs
+		jpsme
+		jpmap
+
+	vp sports
+	assistant vp sports
+		pasoa
+		aeces
+		cs
+		jpsme
+		jpmap
+
+
+	vp events
+	assistant vp events
+		pasoa
+
+	vp technocal
+	assistant vp tech
+		pasoa
+		aeces
+-------------------------------------------------
+
+	vp records
+	assistant vp records
+		aeces
+		cs
+		jpsme
+		jpmap
+
+	vp finance
+	assistand vp finance
+		aeces
+		cs
+		jpsme
+		jpia
+		jma
+		jpmap
+
+	vp logistics
+		aeces
+		jma
+		jpmap
+
+	vp business affairs
+		aeces
+		jpsme
+
+-----------------------------------------------
+	vp communication
+	assisstant vp communication
+		cs
+		jpia
+		jpmap
+
+
+----------------------------------------------
+	vp technical affairs
+	assisstant vp tech affairs
+		jpsme
+
+
+--------------------------------------------
+	general secretary
+		jpia
+		mentors
+		student council
+
+	assistant secretary
+		mentors
+		student council
+
+
+	vp non-acads
+		jpia
+
+-----------------------------------------------
+	vp marketing
+		jma
+
+	vp special projects
+		jma
+
+	vp creatives
+		jma
+
+	Director for Finance
+	Director for Marketing
+	Director for Logistics
+	Director for Creatives
+		jma
+
+----------------------------------------
+	auditor
+		jpmap
+		mentors
+		student council
+
+
+
+
+=========================
+magkaiba
+	Vice President for Ways and Means
+		pasoa
+
+	delegates representative
+		cs
+	
+	JPSME Representative
+		jpsme
+
+	business manager
+		mentors
+		student council
+
+	treasurer
+	assistant treasurer
+		student council
+
+	org representative
+		student council
+
+
+
+
+

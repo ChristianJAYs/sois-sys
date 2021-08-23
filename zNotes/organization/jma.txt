@@ -1,0 +1,30 @@
+JMA:
+•	President
+
+•	Executive Vice President
+
+•	VP for External Affairs
+
+•	VP for Internal Affairs
+
+•	VP for Documentation
+
+•	VP for Finance
+
+•	VP for Audit
+
+•	VP for Marketing
+
+•	VP for Special Projects
+
+•	VP for Logistics
+
+•	VP for Creatives
+
+•	Director for Finance
+
+•	Director for Marketing
+
+•	Director for Logistics
+
+•	Director for Creatives

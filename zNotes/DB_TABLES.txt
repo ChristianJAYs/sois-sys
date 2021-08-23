@@ -1,0 +1,18 @@
+Users
+Roles
+Organizations
+Courses
+	Bachelor of Science in Electronics Engineering (BSECE)
+	Bachelor of Science in Mechanical Engineering (BSME)
+	Bachelor of Science in Accountancy (BSA)
+	Bachelor of Science in Business Administration (BSBA) major in Human Resource Development Management, Marketing Management
+	Bachelor of Science in Applied Mathematics (BSAM)
+	Bachelor of Science in Information Technology (BSIT)
+	Bachelor of Science in Entrepreneurship (BSENTREP)
+	Bachelor in Secondary Education (BSED) major in English, Mathematics
+	Bachelor of Science in Office Administration (BSOA)
+	
+	Diploma in Information Communication Technology (DICT)
+	Diploma in Office Management Technology (DOMT)
+
+Positions

@@ -1,0 +1,19 @@
+user
+
+admin account
+	permissions
+
+lagyan ng tab yung mga students
+
+name (first, middle, last)
+gender
+course
+roles
+permission
+position titles
+orgname
+orglogo
+course
+course acronym
+
+
