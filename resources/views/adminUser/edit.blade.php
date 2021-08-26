@@ -53,7 +53,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>User Role</strong>
-                <input type="text" name="roles" value="{{$users->roles}}" class="form-control" placeholder="roles">
+                <input type="text" name="roles" value="{{$users->role_id}}" class="form-control" placeholder="roles">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

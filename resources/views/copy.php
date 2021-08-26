@@ -4,10 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        SOIS
+        slider
     </title>
-    <link rel="icon" type="image/svg+xml" href="{{ asset('image/svg/pup.svg') }}">
-    
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -58,55 +56,36 @@
 </head>
 <body id="body">
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-transparent" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <a class="navbar-brand" href="#">
             <img id="pup-logo" src="{{ asset('image/svg/pup.svg') }}">
         </a>
-        <button class="navbar-toggler main-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            <!-- <i class="fas fa-bars"></i> -->
         </button>
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{ url('/') }}"><i class="drop-logo fas fa-home"></i>Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/about') }}"><i class="drop-logo fas fa-question-circle"></i>About</a>
+                    <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="drop-logo fas fa-user-friends"></i>Organization
+                        Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">CSC</a>
-                        <a class="dropdown-item" href="#">PUPUKAW</a>
-                        <a class="dropdown-item" href="#">CS</a>
-                        <a class="dropdown-item" href="#">MENTORS</a>
-                        <a class="dropdown-item" href="#">AECES</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">||</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
-                <div class="dropdown-divider"></div>
-                @if (Route::has('login'))
-                <li>
-                    @auth
-                        <a href="{{ url('/') }}" class="nav-link" style="float: right;"><i class="drop-logo fas fa-house-user"></i>Home</a>
-                    @else
-                        <a class="nav-link" href="{{ route('login') }}"><i class="drop-logo fas fa-sign-in-alt"></i>Login</a>
-                        <!-- <a href="{{ route('login') }}" class="nav-link">Log in</a> -->
-                </li>
-                <li class="nav-item">
-                        @if (Route::has('register'))
-                            <a class="nav-link" href="{{ route('register') }}"><i class="drop-logo fas fa-user-check"></i>Register</a>
-                            <!-- <a href="{{ route('register') }}" class="nav-link" style="float: right;">Register</a> -->
-                        @endif
-                    @endauth
-                </li>
-                @endif
             </ul>
         </div>
     </nav>
@@ -134,24 +113,22 @@
     
     <!-- MAIN LAND PAGE -->
     <!-- slick -->
-    <div class="parallax-2">
-        <div id="main" class="container-fluid">
+    
+    <div id="main" class="container-fluid">
             <div class="container">
-              <h2>Organizations</h2>
+              <h2>Our  Partners</h2>
                <section class="logo-slider slider">
                   <div><img class="item" src="{{ asset('image/svg/csc.svg') }}"></div>
                   <div><img class="item" src="{{ asset('image/svg/cs.svg') }}"></div>
                   <div><img class="item" src="{{ asset('image/svg/aeces.svg') }}"></div>
                   <div><img class="item" src="{{ asset('image/svg/chronicler.svg') }}"></div>
-                  <div><img class="item" src="{{ asset('image/svg/JMA.svg') }}"></div>
-                  <div><img class="item" src="{{ asset('image/svg/jpia.svg') }}"></div>
-                  <div><img class="item" src="{{ asset('image/svg/jpmap.svg') }}"></div>
-                  <div><img class="item" src="{{ asset('image/svg/mentors.svg') }}"></div>
-                  <div><img class="item" src="{{ asset('image/svg/pasoa.svg') }}"></div>
+                  <div><img class="item" src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                  <div><img class="item" src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                  <div><img class="item" src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+                  <div><img class="item" src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
                </section>
             </div>
         </div>
-    </div>
     <!-- end slick -->
 <!-- BOOSTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>

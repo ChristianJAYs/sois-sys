@@ -19,7 +19,7 @@
                     <table style="width:100%">
                         <tr>
                             <th><strong>Name:</strong></th>
-                            <td>{{Auth::user()->name}}</td>
+                            <td>{{Auth::user()->last_name}}, {{Auth::user()->first_name}}</td>
                         </tr>
                         <tr>
                             <th><strong>Student Number:</strong></th>
@@ -31,7 +31,7 @@
                         </tr>
                     </table>
                     <hr>
-                    Your role: {{Auth::user()->roles}}
+                    Your role: {{Auth::user()->role_id}}
                     <br>
                     <hr>
                     Your Organization: {{Auth::user()->organization}}

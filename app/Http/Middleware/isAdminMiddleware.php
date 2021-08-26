@@ -18,7 +18,7 @@ class isAdminMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if(Auth::check() && Auth::user()->role_id == 3 && Auth()->user()->position_id == 0){
+        if(Auth::check() && Auth::user()->role_id == 1 && Auth()->user()->position_id == 1){
             return $next($request);
         }
         else{

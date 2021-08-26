@@ -40,7 +40,7 @@
                     <hr>
                     <p class="pl-3"><strong>User Organization:</strong> {{ $users->organization }}</p>
                     <hr>
-                    <p class="pl-3"><strong>User Role:</strong> {{ $users->roles }}</p>
+                    <p class="pl-3"><strong>User Role:</strong> {{ $users->role_id }}</p>
                     <hr>
                     <p class="pl-3"><strong>User Student Number:</strong> {{ $users->student_number }}</p>
                     <hr>

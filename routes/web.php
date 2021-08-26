@@ -68,9 +68,9 @@ Route::get('/admincreate', [App\Http\Controllers\AdminController::class, 'create
 Route::get('/adminupload', [App\Http\Controllers\AdminController::class, 'show'])->name('adminupload');
 Route::post('/adminstore', [App\Http\Controllers\AdminController::class, 'store'])->name('adminstore');
 Route::delete('/admindestroy/{users}', [App\Http\Controllers\AdminController::class, 'destroy'])->name('admindestroy');
-Route::get('/adminedit/{users}', [App\Http\Controllers\AdminController::class, 'edit'])->name('adminedit');
+Route::get('/adminedit{users}', [App\Http\Controllers\AdminController::class, 'edit'])->name('adminedit');
 Route::get('/adminview/{users}', [App\Http\Controllers\AdminController::class, 'view'])->name('adminview');
-Route::put('/adminupdate/{users}', [App\Http\Controllers\AdminController::class, 'update'])->name('adminupdate');
+Route::put('/adminupdate{users}', [App\Http\Controllers\AdminController::class, 'update'])->name('adminupdate');
 // Route::get('/adminshow{users}', [App\Http\Controllers\AdminController::class, 'show'])->name('adminshow');
 // ---------------------------- END ADMIN ROUTES ---------------------------
 

@@ -34,31 +34,31 @@ class LoginController extends Controller
      */
     protected $redirectTo = RouteServiceProvider::HOME;
         protected function redirectTo(){
-            if(Auth()->user()->role_id == 3 && Auth()->user()->position_id == 0){
+            if(Auth()->user()->role_id == 1 && Auth()->user()->position_id == 1){
                 return route('admin.dashboard');
             }
-            else if (Auth()->user()->role_id == 2 && Auth()->user()->position_id == 1) {
+            else if (Auth()->user()->role_id == 2 && Auth()->user()->position_id == 2) {
                 return redirect()->route('studentaffairs.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 2) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 3) {
                 return route('president.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 3) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 4) {
                 return route('vice-president.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 4) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 5) {
                 return route('secretary.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 5) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 6) {
                 return route('treasurer.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 6) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 7) {
                 return route('auditor.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 7) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 8) {
                 return route('representative.dashboard');
             }
-            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 8) {
+            else if (Auth()->user()->role_id = 1 && Auth()->user()->position_id == 9) {
                 return route('members.dashboard');
             }
             else{
@@ -87,31 +87,31 @@ class LoginController extends Controller
         ]);
 
         if (Auth()->attempt(array('email'=>$input['email'], 'student_number'=>$input['student_number'], 'password'=>$input['password']))) {
-            if (Auth()->user()->role_id == 3 && Auth()->user()->position_id == 0) {
+            if (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 1) {
                 return redirect()->route('admin.dashboard');
             }
-            elseif (Auth()->user()->role_id == 2 && Auth()->user()->position_id == 1) {
+            elseif (Auth()->user()->role_id == 2 && Auth()->user()->position_id == 2) {
                 return redirect()->route('studentaffairs.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 2) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 3) {
                 return redirect()->route('president.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 3) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 4) {
                 return redirect()->route('vice-president.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 4) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 5) {
                 return redirect()->route('secretary.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 5) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 6) {
                 return redirect()->route('auditor.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 6) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 7) {
                 return redirect()->route('treasurer.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 7) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 8) {
                 return redirect()->route('representative.dashboard');
             }
-            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 8) {
+            elseif (Auth()->user()->role_id == 1 && Auth()->user()->position_id == 9) {
                 return redirect()->route('members.dashboard');
             }
         }
